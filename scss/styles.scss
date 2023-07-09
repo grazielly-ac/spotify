@@ -1,0 +1,12 @@
+@use 'custom';
+
+//components
+@use './components/animations';
+@use './components/buttons';
+@use './components/mixins';
+@use './components/typography';
+
+//sections
+@use './sections/navbar';
+@use './sections/main';
+@use './sections/footer';
