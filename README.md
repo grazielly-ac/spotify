@@ -8,4 +8,4 @@ Para este projeto foram utilizados: Node.js, Bootstrap, Sass, Autoprefixer e Fon
 
 ## Disponível em
 
-* [Netlify](https://grazielly-spotify.netlify.app/) - Netlify
+* [https://grazielly-spotify.netlify.app/](https://grazielly-spotify.netlify.app/) - Netlify
