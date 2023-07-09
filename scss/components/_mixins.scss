@@ -1,0 +1,7 @@
+@use '../custom' as *;
+
+@mixin gradient{
+    background: linear-gradient(to right, rgba($primary,0.7), rgba($black, 1));
+    transition: all 500ms ease;
+}
+

@@ -9,27 +9,27 @@
 
 .menu{
     margin: 0 auto;
-    padding: 0 0.938rem;
-    height: 5rem;
+    padding: 20px 0.938rem;
+    
 
     li{
         padding: 0 0.75rem;
 
+        :hover{
+            transition: all 500ms ease;
+            color: $spotify-green;
+        }
+        
         a{
             color: $light;
             font-weight: 600;
             
         }
-        a:hover{
-            transition: all 500ms ease;
-            color: $spotify-green;
+               
+        
+        &:nth-child(3){
+            border-right: 1px solid white;
         }
-        
-        
-        
     }
 
-    li:nth-child(3){
-        border-right: 1px solid white;
-    }
 }
