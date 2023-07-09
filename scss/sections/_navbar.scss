@@ -1,8 +1,9 @@
 @use '../custom' as *;
-
+@use '../components/mixins' as *;
 .logo{
     width: 100%;
     max-width: 130px;
+    min-width: 130px;
     height: auto;
    
 }
@@ -16,8 +17,7 @@
         padding: 0 0.75rem;
 
         :hover{
-            transition: all 500ms ease;
-            color: $spotify-green;
+            @include hoverItens;
         }
         
         a{

@@ -1,0 +1,116 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.icons{
+    color: $light;
+    width: 25%;
+    height: 25%;
+    font-size: large;
+}
+
+.footer-list{ 
+    
+    h5{
+        color: $light;
+        
+    }
+
+    li{
+        :hover{
+            @include hoverItens;
+        }
+    }
+
+    a{
+        color: $light !important;
+        
+    }
+
+    
+    .icons{
+        justify-content: space-around;
+        width: 100%;
+       
+        &-container{
+            @include media-breakpoint-down(sm){
+                width: 20%;
+                min-width: 41px;
+                max-width: 41px;
+                height: min-content;
+            }
+           
+            @include media-breakpoint-up(sm){
+                width: 10%;
+                min-width: 51px;
+                max-width: 51px;
+                height: min-content;
+            }
+        
+            @include media-breakpoint-up(md){
+                margin-right: 0.5rem;
+                width: 20%;
+                min-width: 41px;
+                max-width: 41px;
+                height: min-content;
+            }
+
+                        
+            :hover{
+                @include hoverItens;
+            }
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            padding: 0.5rem;
+            background-color: rgba(126, 119, 119, 0.404);
+            cursor: pointer;
+            i{
+                color: $light;
+                font-size: 1.4rem;
+             
+            }
+        }
+    }
+
+    &-final{
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.country{
+
+
+    display: flex;
+    width: 50%;
+    height: auto;
+
+    p{
+        color: $light;
+        
+    }
+
+    &-paragraph{
+        display: flex;
+        margin-right: 0.5rem;
+    }
+
+    &-img{
+        width: 100%;
+        min-width: 35px;
+        max-width: 35px;
+        margin-left: 0.5rem;
+    }
+
+    &-container{   
+      
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0.5rem 0;
+        
+    }
+}

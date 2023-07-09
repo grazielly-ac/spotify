@@ -5,3 +5,7 @@
     transition: all 500ms ease;
 }
 
+@mixin hoverItens{
+    transition: all 500ms ease;
+    color: $spotify-green !important;
+}

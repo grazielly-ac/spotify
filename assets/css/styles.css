@@ -11861,6 +11861,7 @@ textarea.form-control-lg {
 .logo {
   width: 100%;
   max-width: 130px;
+  min-width: 130px;
   height: auto;
 }
 
@@ -11873,7 +11874,7 @@ textarea.form-control-lg {
 }
 .menu li :hover {
   transition: all 500ms ease;
-  color: #1db954;
+  color: #1db954 !important;
 }
 .menu li a {
   color: #ffffff;
@@ -11915,6 +11916,100 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(29, 185, 84, 0.7), black);
   transition: all 500ms ease;
   color: #ffffff;
+}
+
+.icons {
+  color: #ffffff;
+  width: 25%;
+  height: 25%;
+  font-size: large;
+}
+
+.footer-list h5 {
+  color: #ffffff;
+}
+.footer-list li :hover {
+  transition: all 500ms ease;
+  color: #1db954 !important;
+}
+.footer-list a {
+  color: #ffffff !important;
+}
+.footer-list .icons {
+  justify-content: space-around;
+  width: 100%;
+}
+.footer-list .icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: rgba(126, 119, 119, 0.404);
+  cursor: pointer;
+}
+@media (max-width: 575.98px) {
+  .footer-list .icons-container {
+    width: 20%;
+    min-width: 41px;
+    max-width: 41px;
+    height: min-content;
+  }
+}
+@media (min-width: 576px) {
+  .footer-list .icons-container {
+    width: 10%;
+    min-width: 51px;
+    max-width: 51px;
+    height: min-content;
+  }
+}
+@media (min-width: 768px) {
+  .footer-list .icons-container {
+    margin-right: 0.5rem;
+    width: 20%;
+    min-width: 41px;
+    max-width: 41px;
+    height: min-content;
+  }
+}
+.footer-list .icons-container :hover {
+  transition: all 500ms ease;
+  color: #1db954 !important;
+}
+.footer-list .icons-container i {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+.footer-list-final {
+  display: flex;
+  align-items: flex-end;
+}
+
+.country {
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+.country p {
+  color: #ffffff;
+}
+.country-paragraph {
+  display: flex;
+  margin-right: 0.5rem;
+}
+.country-img {
+  width: 100%;
+  min-width: 35px;
+  max-width: 35px;
+  margin-left: 0.5rem;
+}
+.country-container {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0.5rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
