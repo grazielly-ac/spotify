@@ -11858,5 +11858,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.logo {
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+}
+
+.menu {
+  margin: 0 auto;
+  padding: 0 0.938rem;
+  height: 5rem;
+}
+.menu li {
+  padding: 0 0.75rem;
+}
+.menu li a {
+  color: #ffffff;
+  font-weight: 600;
+}
+.menu li a:hover {
+  transition: all 500ms ease;
+  color: #1db954;
+}
+.menu li:nth-child(3) {
+  border-right: 1px solid white;
+}
 
 /*# sourceMappingURL=styles.css.map */

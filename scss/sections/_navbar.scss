@@ -1,0 +1,35 @@
+@use '../custom' as *;
+
+.logo{
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+   
+}
+
+.menu{
+    margin: 0 auto;
+    padding: 0 0.938rem;
+    height: 5rem;
+
+    li{
+        padding: 0 0.75rem;
+
+        a{
+            color: $light;
+            font-weight: 600;
+            
+        }
+        a:hover{
+            transition: all 500ms ease;
+            color: $spotify-green;
+        }
+        
+        
+        
+    }
+
+    li:nth-child(3){
+        border-right: 1px solid white;
+    }
+}
